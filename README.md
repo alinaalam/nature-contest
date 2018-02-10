@@ -1,0 +1,1 @@
+A Node.js app that lets users see entrants around them and vote on their pictures
