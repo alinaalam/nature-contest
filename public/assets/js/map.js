@@ -11,17 +11,12 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     accessToken: 'pk.eyJ1IjoiYWxpbmFsYW0iLCJhIjoiY2pkaDdvbmdhMDg0djJ4bzZoem85Y24waCJ9.rEaBv_UWItF6YMcYon8E4Q'
 }).addTo(mymap);
 
-// // Add markers in the map
-// var marker = L.marker([51.5, -0.09]).addTo(mymap);
-// var circle = L.circle([51.508, -0.11], {
-//     color: 'red',
-//     fillColor: '#f03',
-//     fillOpacity: 0.5,
-//     radius: 500
-// }).addTo(mymap);
-
-// // Binding vote number with the marker
-// marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
-// circle.bindPopup("I am a circle.");
-
-// // Binding events with the map
+// Setting up a different colored marker; by default it's blue
+let redIcon = new L.Icon({
+    iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+  });

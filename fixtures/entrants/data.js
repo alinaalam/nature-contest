@@ -19,7 +19,7 @@ module.exports = [
         },
     },
     {
-        name: 'Natalia Portman',
+        name: 'John Green',
         image: path + 'entry3.jpeg',
         location: {
             type: 'Point',
