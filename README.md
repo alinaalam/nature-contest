@@ -17,6 +17,7 @@ http://localhost:4000
 
 When the server starts, fixture file is run that populates the data with 3 entrants. When you'll visit the page, you can already see three pins on the map. On clicking on the pin, you can easily up vote or down vote a user
 
+# Tests
 In order to run tests, simply run the following command:
 
 ```npm test```
