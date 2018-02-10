@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,14 @@
   },
   "homepage": "https://github.com/alinaalam/nature-contest#readme",
   "dependencies": {
+    "chai": "4.1.2",
     "express": "4.16.2",
+    "mocha": "5.0.0",
     "mongoose": "5.0.4",
     "mongoose-geojson-schema": "2.1.2",
-    "socket.io": "2.0.4"
+    "os": "0.1.1",
+    "socket.io": "2.0.4",
+    "socket.io-client": "2.0.4"
   },
   "devDependencies": {
     "node-mongoose-fixtures": "0.2.4",
