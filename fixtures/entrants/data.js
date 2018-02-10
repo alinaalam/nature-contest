@@ -7,7 +7,7 @@ module.exports = [
         image: path + 'entry1.jpeg',
         location: {
             type: 'Point',
-            coordinates: [-73.856077, 40.848447]
+            coordinates: [-0.09, 51.505]
         },
     },
     {
@@ -15,7 +15,7 @@ module.exports = [
         image: path + 'entry2.jpeg',
         location: {
             type: 'Point',
-            coordinates: [-73.856077, 40.848447]
+            coordinates: [-0.068707, 51.518149]
         },
     },
     {
@@ -23,7 +23,7 @@ module.exports = [
         image: path + 'entry3.jpeg',
         location: {
             type: 'Point',
-            coordinates: [-73.856077, 40.848447]
+            coordinates: [-0.109649, 51.49352]
         },
     }
 ];

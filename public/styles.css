@@ -1,4 +1,16 @@
-body{
+#mapid {
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+/* body{
     font-family: 'Nunito';
 }
 
@@ -66,4 +78,4 @@ button{
     padding: 12px 0;
     width: 100%;
     border-radius: 0 0 2px 2px;
-}
+} */
