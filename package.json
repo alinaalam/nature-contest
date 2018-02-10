@@ -4,7 +4,7 @@
   "description": "An app that lets users see entrants around them and vote on their pictures",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +18,13 @@
   },
   "homepage": "https://github.com/alinaalam/nature-contest#readme",
   "dependencies": {
-    "express": "4.16.2"
+    "express": "4.16.2",
+    "mongoose": "5.0.4",
+    "mongoose-geojson-schema": "2.1.2",
+    "socket.io": "2.0.4"
+  },
+  "devDependencies": {
+    "node-mongoose-fixtures": "0.2.4",
+    "nodemon": "1.14.12"
   }
 }
